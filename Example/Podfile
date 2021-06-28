@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PMSOAuth_Tests' do
+  pod 'PMSOAuth', :path => '../'
+  
+  
+end
