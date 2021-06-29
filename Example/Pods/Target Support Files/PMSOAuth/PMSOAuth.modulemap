@@ -1,0 +1,6 @@
+framework module PMSOAuth {
+  umbrella header "PMSOAuth-umbrella.h"
+
+  export *
+  module * { export * }
+}

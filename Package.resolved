@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Facebook",
+        "repositoryURL": "https://github.com/facebook/facebook-ios-sdk",
+        "state": {
+          "branch": null,
+          "revision": "8c6eeab820a3c6a3a638dd48c67270ad559410b4",
+          "version": "11.0.1"
+        }
+      },
+      {
+        "package": "NaverLogin",
+        "repositoryURL": "https://github.com/Goeun1001/naveridlogin-spm",
+        "state": {
+          "branch": "master",
+          "revision": "05e4c542711fceef66a1c3a5ee2f4e991a08760c",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

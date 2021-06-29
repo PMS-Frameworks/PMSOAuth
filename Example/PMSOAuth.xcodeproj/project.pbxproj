@@ -15,12 +15,12 @@
 		607FACE51AFB9204008FA782 /* PMSOAuth_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PMSOAuth_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		61C714D10B391DB82E049CB8 /* PMSOAuth.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PMSOAuth.podspec; path = ../PMSOAuth.podspec; sourceTree = "<group>"; };
+		61C714D10B391DB82E049CB8 /* PMSOAuth.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PMSOAuth.podspec; path = ../PMSOAuth.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		65C857A86395E538B27ECF7B /* Pods-PMSOAuth_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMSOAuth_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PMSOAuth_Tests/Pods-PMSOAuth_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F9F7CB038E523A5A49CC2B5 /* Pods-PMSOAuth_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PMSOAuth_Tests.release.xcconfig"; path = "Target Support Files/Pods-PMSOAuth_Tests/Pods-PMSOAuth_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A31D03686642DDD4BFA80650 /* Pods_PMSOAuth_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PMSOAuth_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6C4045EB2F7FB96BFCD4B5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DEFC45D1247CC34752A6B7CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D6C4045EB2F7FB96BFCD4B5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DEFC45D1247CC34752A6B7CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,6 @@
 				65C857A86395E538B27ECF7B /* Pods-PMSOAuth_Tests.debug.xcconfig */,
 				8F9F7CB038E523A5A49CC2B5 /* Pods-PMSOAuth_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
